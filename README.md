@@ -94,14 +94,14 @@ locust -f locust/myevents_locustfile.py
 # Checkout route
 locust -f locust/checkout_locustfile.py
 
-#Key Learnings:
+# Key Learnings:
 Avoid unnecessary computations inside request handlers
 Optimize algorithmic complexity for better scalability
 Measure performance before and after changes
 Simple optimizations can yield dramatic improvements
 Load testing tools like Locust are essential for validating optimizations
 
-#Conclusion:
+# Conclusion:
 After applying the optimizations:
 CPU usage was significantly reduced
 Response times improved drastically
