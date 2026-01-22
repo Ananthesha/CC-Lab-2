@@ -51,8 +51,9 @@ CPU-intensive and blocked request processing
 Increased response time significantly
 
 After (Optimized Implementation)
+```
 Removed completely
-
+```
 Why Performance Improved
 Eliminated 3 million arithmetic operations per request
 Removed artificial CPU blocking
@@ -69,14 +70,13 @@ for _ in range(1500000):
     dummy += 1
 ```
 1.5 million increment operations per request
-
 No functional purpose
-
 Wasted CPU cycles
 
 After (Optimized Implementation)
-# Removed completely
-
+```
+Removed completely
+```
 Why Performance Improved
 Eliminated unnecessary computation
 Immediate response after database query completion
